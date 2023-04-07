@@ -5,22 +5,23 @@ Pls don't copy my internal workings there can only be one iz2rpn in this world..
 <body>
 <div align="center">
   <h1>Hello, My name Pietro</h1>
-  <div>Hi everyone, I am passionate about electronics and programming and find here what I create and share with you from time to time. Enjoy!</div>
+  <div>Mi puoi trovare anche qui...</div>
   <div align="center">
+<div align="center">
   <a href="https://replit.com/@iz2rpn">
-    🤖
+    🤖<br/>Replit
   </a>
   &nbsp;
   <a href="https://www.youtube.com/@PietroM">
-    🎬
+    🎬<br/>YouTube
   </a>
   &nbsp;
   <a href="https://www.twitch.tv/profandreapollini">
-    🎮
+    🎮<br/>Twitch
   </a>
   &nbsp;
   <a href="https://iz2rpn.altervista.org/">
-    🌐
+    🌐<br/>Sito web
   </a>
 </div>
 <br/>
