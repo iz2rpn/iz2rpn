@@ -19,7 +19,7 @@ Pls don't copy my internal workings there can only be one iz2rpn in this world..
     <span style="font-size: 12px; margin-top: 5px;">YouTube</span>
   </a>
   &nbsp;
-  <a href="https://www.twitch.tv/profandreapollini" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
+  <a href="https://www.twitch.tv/pietro_iz2rpn" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
     <span style="font-size: 24px;">🎮</span>
     <span style="font-size: 12px; margin-top: 5px;">Twitch</span>
   </a>
