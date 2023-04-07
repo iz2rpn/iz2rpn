@@ -8,25 +8,30 @@ Pls don't copy my internal workings there can only be one iz2rpn in this world..
   <div>Mi puoi trovare anche qui...</div>
   <div align="center">
 <div align="center">
-  <a href="https://replit.com/@iz2rpn">
-    🤖<br/>Replit
+<div align="center" style="display: flex; justify-content: center;">
+  <a href="https://replit.com/@iz2rpn" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <span style="font-size: 24px;">🤖</span>
+    <span style="font-size: 12px; margin-top: 5px;">Replit</span>
   </a>
   &nbsp;
-  <a href="https://www.youtube.com/@PietroM">
-    🎬<br/>YouTube
+  <a href="https://www.youtube.com/@PietroM" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <span style="font-size: 24px;">🎬</span>
+    <span style="font-size: 12px; margin-top: 5px;">YouTube</span>
   </a>
   &nbsp;
-  <a href="https://www.twitch.tv/profandreapollini">
-    🎮<br/>Twitch
+  <a href="https://www.twitch.tv/profandreapollini" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <span style="font-size: 24px;">🎮</span>
+    <span style="font-size: 12px; margin-top: 5px;">Twitch</span>
   </a>
   &nbsp;
-  <a href="https://iz2rpn.altervista.org/">
-    🌐<br/>Sito web
+  <a href="https://iz2rpn.altervista.org/" style="text-decoration: none; color: black; display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <span style="font-size: 24px;">🌐</span>
+    <span style="font-size: 12px; margin-top: 5px;">Sito web</span>
   </a>
 </div>
 <br/>
-Ho sostituito le immagini con le relative emoji correlate ai link per rendere il tutto più simpatico.
-<br>
+
+
 <div align="center">
   <a href="https://github.com/Pepyn0/github-readme-stats"><img width=450 height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=iz2rpn&theme=merko&show_icons=true&title_color=6aa84f&icon_color=9fc5e8&bg_color=0d1117&hide_border=true" /></a>
   <a href="https://github.com/Pepyn0/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iz2rpn&theme=great-gatsby&layout=compact&title_color=6aa84f&icon_color=9fc5e8_color&bg_color=0d1117&hide_border=true" /></a>
