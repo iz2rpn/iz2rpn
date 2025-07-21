@@ -1,0 +1,373 @@
+/* Cyberpunk GitHub Profile CSS Animations */
+/* Use this CSS for personal websites or platforms that support custom CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap');
+
+:root {
+    --neon-green: #00ff41;
+    --cyber-pink: #ff79c6;
+    --electric-blue: #8be9fd;
+    --matrix-bg: #0d1117;
+    --terminal-green: #50fa7b;
+}
+
+/* Global cyberpunk styling */
+.cyberpunk-container {
+    font-family: 'Fira Code', monospace;
+    background: var(--matrix-bg);
+    color: var(--neon-green);
+    position: relative;
+    overflow: hidden;
+}
+
+/* ASCII Art Glow Effect */
+.ascii-art {
+    font-family: 'Fira Code', monospace;
+    color: var(--neon-green);
+    text-shadow: 0 0 10px var(--neon-green);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.ascii-art:hover {
+    text-shadow: 
+        0 0 5px var(--neon-green),
+        0 0 10px var(--neon-green),
+        0 0 15px var(--neon-green),
+        0 0 20px var(--neon-green);
+    animation: glitchText 0.5s ease-in-out;
+}
+
+/* Glitch effect for ASCII art */
+@keyframes glitchText {
+    0%, 100% { transform: translate(0); }
+    10% { transform: translate(-2px, -2px); color: var(--cyber-pink); }
+    20% { transform: translate(2px, -2px); color: var(--electric-blue); }
+    30% { transform: translate(-2px, 2px); color: var(--neon-green); }
+    40% { transform: translate(2px, 2px); color: var(--cyber-pink); }
+    50% { transform: translate(-2px, -2px); color: var(--electric-blue); }
+    60% { transform: translate(2px, -2px); color: var(--neon-green); }
+    70% { transform: translate(-2px, 2px); color: var(--cyber-pink); }
+    80% { transform: translate(2px, 2px); color: var(--electric-blue); }
+    90% { transform: translate(-2px, -2px); color: var(--neon-green); }
+}
+
+/* Typing cursor animation */
+.typing-cursor::after {
+    content: '_';
+    color: var(--neon-green);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* Neon border effect for containers */
+.neon-border {
+    border: 2px solid var(--neon-green);
+    border-radius: 8px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.neon-border:hover {
+    box-shadow: 
+        0 0 5px var(--neon-green),
+        0 0 10px var(--neon-green),
+        0 0 15px var(--neon-green),
+        inset 0 0 10px rgba(0, 255, 65, 0.1);
+}
+
+.neon-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, var(--neon-green), var(--cyber-pink), var(--electric-blue), var(--terminal-green));
+    background-size: 400% 400%;
+    border-radius: 8px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: borderFlow 3s ease infinite;
+}
+
+.neon-border:hover::before {
+    opacity: 1;
+}
+
+@keyframes borderFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Progress bar animations */
+.skill-bar {
+    background: rgba(0, 0, 0, 0.7);
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin: 2px 0;
+    transition: all 0.3s ease;
+}
+
+.skill-bar:hover {
+    height: 12px;
+    box-shadow: 0 0 10px var(--neon-green);
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--neon-green), var(--terminal-green));
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.skill-progress::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    transition: all 0.3s ease;
+}
+
+.skill-bar:hover .skill-progress::after {
+    animation: shimmer 1.5s ease infinite;
+}
+
+@keyframes shimmer {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Social links hover effects */
+.social-link {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid var(--neon-green);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--neon-green);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+}
+
+.social-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--neon-green), transparent);
+    transition: left 0.5s ease;
+    opacity: 0.1;
+}
+
+.social-link:hover::before {
+    left: 100%;
+}
+
+.social-link:hover {
+    color: var(--matrix-bg);
+    background: var(--neon-green);
+    box-shadow: 
+        0 0 10px var(--neon-green),
+        0 0 20px var(--neon-green),
+        0 0 30px var(--neon-green);
+    transform: translateY(-2px);
+}
+
+/* Matrix rain background effect */
+.matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.matrix-char {
+    position: absolute;
+    color: var(--neon-green);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    opacity: 0.7;
+    animation: matrixFall 8s linear infinite;
+}
+
+@keyframes matrixFall {
+    0% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.7;
+    }
+    90% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* Stats card hover effects */
+.stats-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stats-card:hover {
+    transform: scale(1.05);
+    filter: 
+        hue-rotate(90deg) 
+        saturate(1.3) 
+        brightness(1.1);
+    box-shadow: 0 10px 30px rgba(0, 255, 65, 0.3);
+}
+
+/* Terminal prompt animation */
+.terminal-prompt {
+    position: relative;
+}
+
+.terminal-prompt::before {
+    content: '> ';
+    color: var(--cyber-pink);
+    animation: promptBlink 2s ease infinite;
+}
+
+@keyframes promptBlink {
+    0%, 70% { opacity: 1; }
+    71%, 100% { opacity: 0.3; }
+}
+
+/* Scanlines effect */
+.scanlines::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 255, 65, 0.03) 0px,
+        rgba(0, 255, 65, 0.03) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    z-index: 1000;
+    animation: scanlineMove 0.1s linear infinite;
+}
+
+@keyframes scanlineMove {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(2px); }
+}
+
+/* Command line text effects */
+.command-text {
+    color: var(--neon-green);
+    font-family: 'Fira Code', monospace;
+    transition: all 0.3s ease;
+}
+
+.command-text:hover {
+    color: var(--electric-blue);
+    text-shadow: 0 0 10px var(--electric-blue);
+    cursor: default;
+}
+
+/* Loading animation for dynamic content */
+.loading-dots::after {
+    content: '';
+    animation: loadingDots 1.5s steps(4, end) infinite;
+}
+
+@keyframes loadingDots {
+    0% { content: ''; }
+    25% { content: '.'; }
+    50% { content: '..'; }
+    75% { content: '...'; }
+    100% { content: ''; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ascii-art {
+        font-size: 0.7em;
+    }
+    
+    .social-link {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    
+    .matrix-char {
+        font-size: 12px;
+    }
+}
+
+/* Interactive elements */
+.clickable-element {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clickable-element:active {
+    transform: scale(0.95);
+    filter: brightness(1.2);
+}
+
+/* Hologram effect for special elements */
+.hologram {
+    position: relative;
+    color: var(--electric-blue);
+    text-shadow: 0 0 10px var(--electric-blue);
+}
+
+.hologram::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--cyber-pink);
+    z-index: -1;
+    animation: hologramShift 3s ease infinite;
+}
+
+@keyframes hologramShift {
+    0%, 100% { 
+        transform: translate(0, 0);
+        opacity: 0.8;
+    }
+    33% { 
+        transform: translate(1px, -1px);
+        opacity: 0.6;
+    }
+    66% { 
+        transform: translate(-1px, 1px);
+        opacity: 0.7;
+    }
+}
