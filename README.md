@@ -82,9 +82,9 @@
 
 <table>
   <tr>
-    <td>JavaScript/Node.js</td>
+    <td>Family</td>
     <td>
-      <code>████████████████████████░</code> <b>95%</b>
+      <code>█████████████████████████</code> <b>100%</b>
     </td>
   </tr>
   <tr>
