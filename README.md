@@ -2,7 +2,7 @@
 
 ```
 ╔════════════════════════════════════════════════════════════════════╗
-║      WELCOME TO IZ2RPN BBS - PIETRO'S DIGITAL SHACK                ║
+║        WELCOME TO IZ2RPN BBS - PIETRO'S DIGITAL SHACK              ║
 ╚════════════════════════════════════════════════════════════════════╝
 
 ██╗███████╗██████╗ ██████╗ ██████╗ ███╗   ██╗
@@ -13,7 +13,7 @@
 ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═══╝
 
 ╔════════════════════════════════════════════════════════════════════╗
-║     RADIO AMATEUR - TECH MAKER - CODE WIZARD                       ║
+║       RADIO AMATEUR - TECH MAKER - CODE WIZARD                     ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -127,10 +127,10 @@
 ### ███ GITHUB STATISTICS ███
 
 <a href="https://github.com/Pepyn0/github-readme-stats">
-  <img width=420 height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=iz2rpn&theme=merko&show_icons=true&title_color=6aa84f&icon_color=9fc5e8&bg_color=0d1117&hide_border=true" />
+  <img width=420 height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=iz2rpn&theme=merko&show_icons=true&title_color=00ff41&icon_color=00ff41&bg_color=0d1117&hide_border=true" />
 </a>
 <a href="https://github.com/Pepyn0/github-readme-stats">
-  <img width=320 height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iz2rpn&theme=great-gatsby&layout=compact&title_color=6aa84f&icon_color=9fc5e8_color&bg_color=0d1117&hide_border=true" />
+  <img width=320 height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iz2rpn&theme=merko&layout=compact&title_color=00ff41&icon_color=00ff41&bg_color=0d1117&hide_border=true" />
 </a>
 
 </div>
@@ -151,11 +151,14 @@
 
 ---
 
+<div align="center">
+
 ```
 ╔════════════════════════════════════════════════════════════════════╗
-║  Thank you for visiting IZ2RPN BBS! 73s and happy hacking! 📡⚡    ║
+║  Thank you for visiting IZ2RPN BBS! 73s and happy hacking! 📡⚡   ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
+</div>
 
 <!--
 **iz2rpn/iz2rpn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
