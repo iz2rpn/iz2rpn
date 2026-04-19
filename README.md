@@ -4,150 +4,126 @@
 ╔════════════════════════════════════════════════════════════════════╗
 ║        WELCOME TO IZ2RPN BBS - PIETRO'S DIGITAL SHACK              ║
 ╚════════════════════════════════════════════════════════════════════╝
+```
 
+<img src="https://readme-typing-svg.herokuapp.com?color=00FF41&center=true&vCenter=true&lines=Python+Backend+Developer;Hardware+Hacker;Ham+Radio+Operator+(IZ2RPN);Building+weird+stuff+that+works" />
+
+```
 ██╗███████╗██████╗ ██████╗ ██████╗ ███╗   ██╗
 ██║╚══███╔╝╚════██╗██╔══██╗██╔══██╗████╗  ██║
 ██║  ███╔╝  █████╔╝██████╔╝██████╔╝██╔██╗ ██║
 ██║ ███╔╝  ██╔═══╝ ██╔══██╗██╔═══╝ ██║╚██╗██║
 ██║███████╗███████╗██║  ██║██║     ██║ ╚████║
 ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═══╝
-
-╔════════════════════════════════════════════════════════════════════╗
-║       RADIO AMATEUR - TECH MAKER - CODE WIZARD                     ║
-╚════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
+
+---
 
 > **"If it ain't broke, tweak it until it is... then fix it better!"**
 
 ---
 
-<div align="center">
+## 🧠 SYSTEM INFO
 
-### ███ SYSTEM INFO ███
-
-```
+```bash
 > USER:      Pietro (IZ2RPN)
-> STATUS:    Online and always ready for new projects!
+> STATUS:    Building things that shouldn't work (but do)
 > LOCATION:  Milan, Italy 🇮🇹
-> CALLSIGN:  IZ2RPN (Licensed Ham Radio Operator)
-> PASSION:   Hardware Hacking, Software Development, Radio Communications
-> MOTTO:     "Code, Build, Broadcast, Repeat!"
+> CALLSIGN:  IZ2RPN
+> MODE:      Python | Embedded | Reverse Engineering | DIY
+> UPTIME:    Coffee dependent ☕
 ```
-</div>
 
 ---
 
-<div align="center">
+## 🚀 FEATURED PROJECTS (REAL STUFF)
 
-### ███ NETWORK CONNECTIONS ███
+### 📺 TV Romania Portal
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://replit.com/@iz2rpn">
-        <span style="font-size: 2em;">🤖</span><br>
-        <sub>Replit</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.youtube.com/@PietroM">
-        <span style="font-size: 2em;">🎬</span><br>
-        <sub>YouTube</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.twitch.tv/pietro_iz2rpn">
-        <span style="font-size: 2em;">🎮</span><br>
-        <sub>Twitch</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://iz2rpn.altervista.org/">
-        <span style="font-size: 2em;">🌐</span><br>
-        <sub>Website</sub>
-      </a>
-    </td>
-  </tr>
-</table>
+👉 [https://github.com/iz2rpn/tv-romania-portal](https://github.com/iz2rpn/tv-romania-portal)
 
-</div>
+* Streaming portal per canali TV rumeni
+* Parsing M3U + gestione EPG/XML
+* UI semplice per utenti non tecnici
+* Nato per un problema reale (suoceri mode ON 😄)
 
 ---
 
-<div align="center">
+### 💰 NCR CTM Integration
 
-### ███ SKILL TREE ███
-
-<table>
-  <tr>
-    <td>Family</td>
-    <td>
-      <code>█████████████████████████</code> <b>100%</b>
-    </td>
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>
-      <code>████████████████████░░░░░</code> <b>85%</b>
-    </td>
-  </tr>
-  <tr>
-    <td>Hardware Design</td>
-    <td>
-      <code>██████████████████░░░░░░░</code> <b>80%</b>
-    </td>
-  </tr>
-  <tr>
-    <td>Ham Radio (IZ2RPN)</td>
-    <td>
-      <code>████████████████████████░</code> <b>92%</b>
-    </td>
-  </tr>
-  <tr>
-    <td>Arduino/ESP32</td>
-    <td>
-      <code>█████████████████████░░░░</code> <b>88%</b>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux/Unix</td>
-    <td>
-      <code>███████████████████░░░░░░</code> <b>82%</b>
-    </td>
-  </tr>
-</table>
-</div>
+* Integrazione sistemi pagamento automatici (cash recycler)
+* API Python + bridge Java
+* Gestione transazioni, errori hardware e stato macchina
+* Debug su sistemi reali (non demo)
 
 ---
 
-<div align="center">
+### 🛰️ NetRonin (Cyber Defense Framework)
 
-### ███ GITHUB STATISTICS ███
-
-<a href="https://github.com/Pepyn0/github-readme-stats">
-  <img width=420 height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=iz2rpn&theme=merko&show_icons=true&title_color=00ff41&icon_color=00ff41&bg_color=0d1117&hide_border=true" />
-</a>
-<a href="https://github.com/Pepyn0/github-readme-stats">
-  <img width=320 height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iz2rpn&theme=merko&layout=compact&title_color=00ff41&icon_color=00ff41&bg_color=0d1117&hide_border=true" />
-</a>
-
-</div>
+* Monitoraggio rete + contromisure automatiche
+* Honeypot + tarpitting
+* API REST modulare
+* Logging avanzato per analisi attacchi
 
 ---
 
-<div align="center">
+## 🔧 TECH STACK
 
-### ███ CONTACT INFO ███
-
+```bash
+Languages:   Python, C, Java (getting there), Bash
+Backend:     Flask, FastAPI, REST APIs
+Hardware:    ESP32, RP2040, Arduino, custom PCB
+Protocols:   TCP/IP, Serial, custom hardware protocols
+Tools:       Linux, Wireshark, VS Code, Git
+Other:       3D Printing, Blender, Reverse Engineering
 ```
-> 📡 Call me on the air: IZ2RPN
-> 💻 Always experimenting with new tech
-> 🔧 Maker space enthusiast
-> ⚡ "Every problem is just a feature waiting to be discovered!"
+
+---
+
+## 📡 NETWORK CONNECTIONS
+
+<p align="center">
+  <a href="https://replit.com/@iz2rpn">🤖 Replit</a> •
+  <a href="https://www.youtube.com/@PietroM">🎬 YouTube</a> •
+  <a href="https://www.twitch.tv/pietro_iz2rpn">🎮 Twitch</a> •
+  <a href="https://iz2rpn.altervista.org/">🌐 Website</a>
+</p>
+
+---
+
+## 📊 LIVE SYSTEM METRICS
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iz2rpn&theme=merko&show_icons=true&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iz2rpn&theme=merko&layout=compact&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iz2rpn&theme=react-dark&hide_border=true&color=00ff41" />
+</p>
+
+---
+
+## ⚡ CURRENT MODE
+
+```bash
+> Studying:     AI / Backend / System Integration
+> Building:     Tools that solve real-world problems
+> Exploring:    Hardware hacking + network security
+> Mission:      Level up and build smarter systems
 ```
-</div>
+
+---
+
+## 📞 CONTACT
+
+```bash
+> 📡 Radio: IZ2RPN
+> 💻 GitHub: you are already here
+> ⚡ Motto: "Every problem is just a system you haven't debugged yet"
+```
 
 ---
 
@@ -155,11 +131,8 @@
 
 ```
 ╔════════════════════════════════════════════════════════════════════╗
-║  Thank you for visiting IZ2RPN BBS! 73s and happy hacking! 📡⚡   ║
+║  SYSTEM READY — 73s and happy hacking! 📡⚡                        ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
-</div>
 
-<!--
-**iz2rpn/iz2rpn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+</div>
