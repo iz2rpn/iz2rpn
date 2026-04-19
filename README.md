@@ -38,37 +38,6 @@
 
 ---
 
-## 🚀 PROJECTS
-
-### 📺 TV Romania Portal
-
-👉 [https://github.com/iz2rpn/tv-romania-portal](https://github.com/iz2rpn/tv-romania-portal)
-
-* Streaming portal per canali TV rumeni
-* Parsing M3U + gestione EPG/XML
-* UI semplice per utenti non tecnici
-* Nato per un problema reale (suoceri mode ON 😄)
-
----
-
-### 💰 NCR CTM Integration
-
-* Integrazione sistemi pagamento automatici (cash recycler)
-* API Python + bridge Java
-* Gestione transazioni, errori hardware e stato macchina
-* Debug su sistemi reali (non demo)
-
----
-
-### 🛰️ NetRonin (Cyber Defense Framework)
-
-* Monitoraggio rete + contromisure automatiche
-* Honeypot + tarpitting
-* API REST modulare
-* Logging avanzato per analisi attacchi
-
----
-
 ## 🔧 TECH STACK
 
 ```bash
@@ -131,7 +100,7 @@ Other:       3D Printing, Blender, Reverse Engineering
 
 ```
 ╔════════════════════════════════════════════════════════════════════╗
-║  SYSTEM READY — 73s and happy hacking! 📡⚡                        ║
+║              SYSTEM READY — 73s and happy hacking! 📡⚡           ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
