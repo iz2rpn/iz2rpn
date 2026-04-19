@@ -38,7 +38,7 @@
 
 ---
 
-## 🚀 FEATURED PROJECTS (REAL STUFF)
+## 🚀 PROJECTS
 
 ### 📺 TV Romania Portal
 
